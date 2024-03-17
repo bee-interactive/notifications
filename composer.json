@@ -1,0 +1,28 @@
+{
+    "name": "bee-interactive/notifications",
+    "description": "Notifications and reminders for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "BeeInteractive\\Notifications\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yves Engetschwiler",
+            "email": "info@bee-interactive.ch"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^11.0"
+    }
+}
