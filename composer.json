@@ -21,6 +21,9 @@
         "sort-packages": true,
         "optimize-autoloader": true
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "require-dev": {
         "orchestra/testbench": "^9.0",
         "phpunit/phpunit": "^11.0"
